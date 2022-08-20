@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @manifest kelvin
-- 👀 I’m interested in python
+- 👀 I’m interested in python and C
 - 🌱 I’m currently learning data science
 - 💞️ I’m looking to collaborate on projects
 - 📫 How to reach me mqnifestkelvin@gmail.com
