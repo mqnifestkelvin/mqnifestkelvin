@@ -44,7 +44,7 @@ jobs:
 
         with:
 
-          github_user_name: mishmanners
+          github_user_name: mqnifestkelvin
 
           # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
 
@@ -64,7 +64,7 @@ jobs:
 
         with:
 
-          github_token: ${{ secrets.TOKEN }}
+          github_token: ${{ secrets.MY_GITHUBTOKEN }}
 
           branch: master
 
@@ -82,4 +82,4 @@ jobs:
 
         env:
 
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUBTOKEN }}
