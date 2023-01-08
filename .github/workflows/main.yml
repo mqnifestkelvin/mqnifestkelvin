@@ -41,7 +41,7 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ SECRETE }}
+          github_token: ${{ secrete.SECRETE }}
           branch: master
           force: true
 
@@ -51,4 +51,4 @@ jobs:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ SECRETE }}
+          GITHUB_TOKEN: ${{ secrete.SECRETE }}
